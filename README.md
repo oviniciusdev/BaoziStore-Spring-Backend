@@ -24,7 +24,7 @@ A API segue o padrão de arquitetura MVC simplificado:
 ## Endpoints Principais
 | Método | Rota | Descrição |
 | :--- | :--- | :--- |
-| **POST** | `/clientes` | Cadastra um novo cliente (incluindo Nome e RU). |
+| **POST** | `/clientes` | Cadastra um novo cliente. |
 | **GET** | `/clientes` | Lista todos os clientes cadastrados. |
 | **DELETE** | `/clientes/{id}` | Remove um cliente específico pelo ID. |
 | **POST** | `/produtos` | Adiciona um novo produto ao cardápio. |
